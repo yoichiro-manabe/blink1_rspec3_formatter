@@ -22,7 +22,7 @@ gem 'blink1_rspec3_formatter'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
