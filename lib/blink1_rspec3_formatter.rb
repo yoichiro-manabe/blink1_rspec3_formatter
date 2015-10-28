@@ -1,5 +1,3 @@
-# require "blink1_rspec_formatter/version"
-require 'pp'
 require 'blink1'
 
 class Blink1Rspec3Formatter
