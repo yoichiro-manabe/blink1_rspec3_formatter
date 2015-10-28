@@ -8,9 +8,9 @@ rspec --format Blink1Rspec3Formatter
 
 blink(1) bright pattern:
 
-rspec result is success => RGB(  0, 255, 35)
-rspec result is pending => RGB(255, 200,  0) and blink pending count.
-rspec result is success => RGB(255,  10, 30) and blink error example count.
+* rspec result is success => RGB(  0, 255, 35)
+* rspec result is pending => RGB(255, 200,  0) and blink pending count.
+* rspec result is success => RGB(255,  10, 30) and blink error example count.
 
 ## Installation
 
