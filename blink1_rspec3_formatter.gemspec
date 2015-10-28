@@ -12,14 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Blink the blink1 at executed rspec finished.}
   spec.description   = %q{Blink the blink1 at executed rspec finished..}
   spec.homepage      = "https://github.com/yoichiro-manabe/blink1-rspec3-formatter"
-
-  # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
-  # delete this section to allow pushing this gem to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
-  end
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
