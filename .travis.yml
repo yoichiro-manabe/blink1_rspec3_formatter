@@ -1,8 +1,12 @@
 language: ruby
 rvm:
   - 2.2.3
-before_install: gem install bundler -v 1.10.6
+before_install:
+  - gem install bundler -v 1.10.6
+  - sudo apt-get update
+  - sudo apt-get install libusb-1.0-0-dev
 script:
-#  - bundle exec rubocop
   - bundle exec rake spec
-
+addons:
+    code_climate:
+        repo_token: cad5a0a048f74f6e3c7811ab4bf252440a44d9f93037504c3e4cb1ac52e01eea
