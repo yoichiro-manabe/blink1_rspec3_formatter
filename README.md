@@ -7,7 +7,7 @@
 This enables indicating **RSpec 3** status with blink(1). When executing rspec3 is below code, blink(1) is blink for rspec result.
 
 ```ruby
-rspec --format Blink1Rspec3Formatter
+rspec --format Blink1Rspec3Formatter --format document
 ```
 
 blink(1) bright pattern:
