@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/yoichiro-manabe/blink1_rspec3_formatter.svg?branch=master)](https://travis-ci.org/yoichiro-manabe/blink1_rspec3_formatter)
 
+[![Code Climate](https://codeclimate.com/github/yoichiro-manabe/blink1_rspec3_formatter/badges/gpa.svg)](https://codeclimate.com/github/yoichiro-manabe/blink1_rspec3_formatter)
+
 This enables indicating **RSpec 3** status with blink(1). When executing rspec3 is below code, blink(1) is blink for rspec result.
 
 ```ruby
